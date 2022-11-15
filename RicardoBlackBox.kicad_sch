@@ -1091,6 +1091,7 @@
     )
   )
 
+
   (junction (at 132.08 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 02de8176-8ef5-4af8-a3ea-06c3f5a7f828)
   )
@@ -1188,10 +1189,40 @@
     (uuid f130ddb0-0916-407d-9728-6ff1a5a57806)
   )
 
+  (no_connect (at 69.85 95.25) (uuid 04e595c8-2442-4351-a80c-5493fc0f048b))
+  (no_connect (at 69.85 120.65) (uuid 0960e0cf-f78d-42c5-be96-f65bb8a4a5aa))
+  (no_connect (at 69.85 97.79) (uuid 12f09b8e-47fd-428d-bac0-b58a2cc756e9))
+  (no_connect (at 135.89 107.95) (uuid 148e4e0f-3ecc-4820-b225-e36db36b6f28))
+  (no_connect (at 69.85 118.11) (uuid 2aa1e472-b9be-4a02-b8b6-a724057a4b39))
+  (no_connect (at 69.85 115.57) (uuid 2e44c86e-0847-4aa8-a25e-f1da7c50be3e))
+  (no_connect (at 135.89 128.27) (uuid 2ed46e47-182b-41e9-b424-808ea2374faa))
+  (no_connect (at 69.85 80.01) (uuid 305ed748-bde6-4e67-8249-d6221dc12fae))
+  (no_connect (at 69.85 102.87) (uuid 39d227f9-492f-489a-8ef4-56931b7ee059))
+  (no_connect (at 113.03 116.84) (uuid 3a707f35-c6d0-4281-bf29-df42ff5c90b3))
   (no_connect (at 185.42 104.14) (uuid 3b9531fd-4ff3-4abc-b864-751ff0a794b2))
+  (no_connect (at 135.89 115.57) (uuid 4254f988-1dc5-478c-85d8-c135c02bb8bc))
+  (no_connect (at 69.85 113.03) (uuid 44c4e24e-f930-465d-81e4-fd5509d4893f))
+  (no_connect (at 69.85 125.73) (uuid 545f0ab8-1dfb-402e-a987-97802ba49382))
+  (no_connect (at 69.85 72.39) (uuid 54cb680c-e7dc-4ec9-bc71-b5ad142f5d31))
+  (no_connect (at 104.14 68.58) (uuid 5a519ce9-9ce5-4dff-ab9f-e52d58414342))
+  (no_connect (at 69.85 82.55) (uuid 5bbf6198-cfcb-46fb-bd9d-883b73caad36))
+  (no_connect (at 69.85 90.17) (uuid 673ab735-e60f-477c-80b7-b1ec6f28c0d8))
+  (no_connect (at 69.85 123.19) (uuid 683ccc04-defd-4465-a832-e038b682948a))
+  (no_connect (at 100.33 54.61) (uuid 6ebb4240-a80f-445a-bcd1-ba4df4652536))
+  (no_connect (at 109.22 91.44) (uuid 7869d61b-bc64-475f-9b05-d5adc003d9ff))
+  (no_connect (at 135.89 130.81) (uuid 7b10f7ca-6c97-4692-a618-ffbe5858abbb))
   (no_connect (at 69.85 77.47) (uuid 86749bc6-b935-4c25-9994-054cf825bf11))
+  (no_connect (at 69.85 74.93) (uuid 87588c45-30ef-4afc-a577-f7592d31a9ed))
+  (no_connect (at 69.85 85.09) (uuid 990920f4-01cd-4e67-99c0-370a555e3b20))
+  (no_connect (at 69.85 100.33) (uuid a1f8fc54-d7ba-40d1-b40c-682b6fce11cf))
+  (no_connect (at 69.85 92.71) (uuid a5b42cc7-f90e-43f4-83c3-b5fdbf6bc4c4))
   (no_connect (at 210.82 106.68) (uuid ace7733e-437e-4db3-a33d-86a98fd230a3))
+  (no_connect (at 135.89 118.11) (uuid ae51e1f7-7fa7-4e71-bfec-689445131f20))
+  (no_connect (at 69.85 87.63) (uuid afd9c455-75c1-4780-b24c-bbcef47701a0))
+  (no_connect (at 135.89 105.41) (uuid b443a9eb-90cf-4cb3-a148-8d101d9f7976))
   (no_connect (at 135.89 113.03) (uuid ba0e2a32-0319-4e19-bc9d-127797da9405))
+  (no_connect (at 135.89 110.49) (uuid bde21c58-e494-43a9-8ecf-c7551a282c47))
+  (no_connect (at 69.85 105.41) (uuid c14f1e6c-7971-4cf7-8315-2c50ddf85e61))
   (no_connect (at 135.89 123.19) (uuid d53bdb65-9586-496e-89ff-e2edf8bb8d22))
   (no_connect (at 149.86 48.26) (uuid f5a7391c-9e44-4f2b-9769-35105407352e))
 
@@ -2232,13 +2263,13 @@
   (symbol (lib_id "Device:C_Small") (at 214.63 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0d34ff32-366e-4c28-bbbc-81ba0b7fc83b)
-    (property "Reference" "C?" (id 0) (at 217.17 99.0662 0)
+    (property "Reference" "C15" (id 0) (at 217.17 99.0662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 217.17 101.6062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 214.63 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 214.63 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 214.63 100.33 0)
@@ -2455,7 +2486,7 @@
   (symbol (lib_id "power:+3.3V") (at 214.63 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6203f329-18ca-405c-af92-955eef11b60a)
-    (property "Reference" "#PWR?" (id 0) (at 214.63 100.33 0)
+    (property "Reference" "#PWR0115" (id 0) (at 214.63 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 214.63 91.44 0))
@@ -2477,7 +2508,7 @@
     (property "Value" "10uF" (id 1) (at 12.7 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 20.32 138.43 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 20.32 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 20.32 138.43 0)
@@ -2612,7 +2643,7 @@
   (symbol (lib_id "power:GND") (at 181.61 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 85da4fe0-4748-4ea0-9e9f-4695dde613ab)
-    (property "Reference" "#PWR?" (id 0) (at 181.61 119.38 0)
+    (property "Reference" "#PWR0114" (id 0) (at 181.61 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 181.61 118.11 0))
@@ -2949,7 +2980,7 @@
   (symbol (lib_id "chest:XTSD08GLGEAG") (at 185.42 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e70c7b52-acc8-4a8e-b292-14278aedb728)
-    (property "Reference" "IC?" (id 0) (at 198.12 96.52 0))
+    (property "Reference" "IC1" (id 0) (at 198.12 96.52 0))
     (property "Value" "XTSD08GLGEAG" (id 1) (at 198.12 99.06 0))
     (property "Footprint" "chest:SON127P800X600X95-8N" (id 2) (at 207.01 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -3177,6 +3208,12 @@
     (path "/a3c78114-af8a-4a48-81b7-abf99ca103fb"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
+    (path "/85da4fe0-4748-4ea0-9e9f-4695dde613ab"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6203f329-18ca-405c-af92-955eef11b60a"
+      (reference "#PWR0115") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/53d816b2-077d-4de8-9c2d-91adbcde7c2a"
       (reference "#PWR0116") (unit 1) (value "+12V") (footprint "")
     )
@@ -3234,12 +3271,6 @@
     (path "/00000000-0000-0000-0000-000061942b9a/54c27e2d-52b9-4197-956b-7db5f761b4df"
       (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6203f329-18ca-405c-af92-955eef11b60a"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/85da4fe0-4748-4ea0-9e9f-4695dde613ab"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005dc1f7e5"
       (reference "3V3LED1") (unit 1) (value "3V3LED") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -3259,7 +3290,7 @@
       (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/67acfde3-6610-495e-8efd-321e2a1a37cf"
-      (reference "C4") (unit 1) (value "10uF") (footprint "")
+      (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e3bf37bc-a7d8-4293-a4b5-54cc127372d6"
       (reference "C5") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3291,6 +3322,9 @@
     (path "/6b6b8837-1619-474b-aed0-02535f4202f6"
       (reference "C14") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/0d34ff32-366e-4c28-bbbc-81ba0b7fc83b"
+      (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000061925999/b893decc-b599-4714-bfdb-e8e8dc9c770c"
       (reference "C20") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -3318,9 +3352,6 @@
     (path "/00000000-0000-0000-0000-000061942b9a/f5a97da1-282d-43a4-ae5f-607cebde55a6"
       (reference "C37") (unit 1) (value "220 pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/0d34ff32-366e-4c28-bbbc-81ba0b7fc83b"
-      (reference "C?") (unit 1) (value "10uF") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061925999/00000000-0000-0000-0000-000061988c8c"
       (reference "D4") (unit 1) (value "SP0503BAHT") (footprint "Package_TO_SOT_SMD:SOT-143")
     )
@@ -3343,7 +3374,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/e70c7b52-acc8-4a8e-b292-14278aedb728"
-      (reference "IC?") (unit 1) (value "XTSD08GLGEAG") (footprint "chest:SON127P800X600X95-8N")
+      (reference "IC1") (unit 1) (value "XTSD08GLGEAG") (footprint "chest:SON127P800X600X95-8N")
     )
     (path "/00000000-0000-0000-0000-000061b03907"
       (reference "J1") (unit 1) (value "RBUS") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
