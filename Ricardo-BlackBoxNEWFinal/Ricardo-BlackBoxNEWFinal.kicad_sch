@@ -2149,8 +2149,8 @@
     (property "Datasheet" "~" (at 33.02 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e51e4d3f-3b85-475d-a5a4-e1cdaf23eabd))
-    (pin "2" (uuid 57db95f6-ac2d-44cf-a7f0-178e0f4e4971))
+    (pin "1" (uuid 7193a015-1eb9-4b00-9c3d-df5d106bc699))
+    (pin "2" (uuid 21a6be7a-82ee-4011-993c-0e0a833c9e80))
     (instances
       (project "Ricardo-BlackBoxNEWFinal"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
@@ -2225,8 +2225,8 @@
     (property "Datasheet" "~" (at 54.61 21.59 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62dd6e14-300c-40ae-a607-42cb19c587ac))
-    (pin "2" (uuid f20b6a3e-ae65-4447-a086-d14e20656445))
+    (pin "1" (uuid 3628be67-be3a-4e2d-9ad6-bc4c848b3204))
+    (pin "2" (uuid 9f828816-2934-4fe0-84eb-7ca02ce7bf51))
     (instances
       (project "Ricardo-BlackBoxNEWFinal"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
@@ -2251,8 +2251,8 @@
     (property "Datasheet" "~" (at 46.99 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e94bc2b-f136-4f30-a527-9ff2cacf90c9))
-    (pin "2" (uuid e6a6c7d1-f72a-4ae0-89d1-d5aa287a3276))
+    (pin "1" (uuid 35543e6c-522b-46cf-bcd0-1108dad96d4f))
+    (pin "2" (uuid bd601e8e-3da7-4dba-8f58-51b71b8122d9))
     (instances
       (project "Ricardo-BlackBoxNEWFinal"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
@@ -2530,7 +2530,7 @@
     (property "Value" "XTSD08GLGEAG" (at 217.805 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "iclr:SOTFL50P160X60-8N" (at 226.695 94.615 0)
+    (property "Footprint" "iclr:SON127P800X600X95-8N" (at 226.695 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf" (at 226.695 97.155 0)
