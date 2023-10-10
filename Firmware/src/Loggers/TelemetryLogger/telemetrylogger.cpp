@@ -8,9 +8,13 @@
 
 #include <libriccore/storage/wrappedfile.h>
 
-#include "telemetrylogframe.h"
+#include <Arduino.h>
 
 
+TelemetryLogger::TelemetryLogger():
+_file(nullptr),
+internalLogCB()
+{};
 
 bool TelemetryLogger::initialize(std::unique_ptr<WrappedFile> file,std::function<void(std::string_view message)> logcb)
 {
@@ -25,19 +29,15 @@ bool TelemetryLogger::initialize(std::unique_ptr<WrappedFile> file,std::function
     return true;
 }
 
-void TelemetryLogger::log(TelemetryLogframe& logframe)
+void TelemetryLogger::log(std::vector<uint8_t> data)
 {
     if (!initialized){return;};
     if (!enabled){return;};
 
-    std::string dataframe_string = logframe.stringify();
-
-    std::vector<uint8_t> dataframe_bytes(dataframe_string.begin(),dataframe_string.end());
-
     //if there is any exception we want to force the user to re-initialize the file, as a wrapped file will
     //automatically close itself when an exception is thrown
     try{
-        _file->append(dataframe_bytes);
+        _file->append(data);
     }
     catch(std::exception &e)
     {

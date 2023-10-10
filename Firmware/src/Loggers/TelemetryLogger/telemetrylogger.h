@@ -34,7 +34,7 @@ class TelemetryLogger : public LoggerBase
          * 
          * @param logframe 
          */
-        void log(TelemetryLogframe& logframe);
+        void log(std::vector<uint8_t> data);
 
     private:
 

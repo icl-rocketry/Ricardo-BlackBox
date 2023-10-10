@@ -8,6 +8,10 @@
 
 #include "Commands/commands.h"
 
+#include "Storage/sdfat_store.h"
+#include <libriccore/networkinterfaces/canlogger/canlogger.h>
+
+
 class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
 {
     public:
@@ -18,7 +22,16 @@ class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
 
         void systemUpdate();
 
-    // private:
+        CanLogger<SYSTEM_FLAG> canlogger;
+        
+        SPIClass FLASHSPI;
+        SdFat_Store flash;
+
+    private:
+
+        void initializeLogger();
+        void logData();
+        const std::string log_path = "/Logs";
 
 
 };
